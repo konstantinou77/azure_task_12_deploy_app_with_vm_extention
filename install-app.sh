@@ -11,7 +11,7 @@ apt-get update -yq
 apt-get install python3-pip -yq
 
 # Create a directory for the app and download the files. 
-mkdir /app 
+mkdir -p /app
 # make sure to uncomment the line bellow and update the link with your GitHub username
 git clone https://raw.githubusercontent.com/konstantinou77/azure_task_12_deploy_app_with_vm_extention/main/install-app.sh
 cp -r azure_task_12_deploy_app_with_vm_extention/app/* /app/
