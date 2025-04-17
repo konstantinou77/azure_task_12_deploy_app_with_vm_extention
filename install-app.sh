@@ -3,7 +3,7 @@
 # Note that all commands below are without sudo - that's because extension mechanism 
 # runs scripts under root user.
 # Set environment to noninteractive to avoid prompts
-export DEBIAN_FRONTEND=noninteractive
+#export DEBIAN_FRONTEND=noninteractive
 # Install system updates and install python3-pip package using apt.
 # '-yq' flags suppress interactive prompts.
 apt-get update -yq
